@@ -10,8 +10,11 @@ python3 runner.py
 ```
 
 - player_v2.py heuristic
+
     - *f-hole* : hole that player can **get free turn** if player picks the hole
+
     - *c-hole* : hole in opponent's side that user can **capture the pieces** in the hole in current turn
+    
 ```
 ℎ_21(s) = (# of oppo’s f-holes) - (# of user’s f-holes)
 
